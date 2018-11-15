@@ -15,7 +15,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    func fromStringToInt(string: String) -> Int
+    {
+        return Int(string)!
+    }
     
+    func calcolaAreaQuadrato(side: Int) -> Int
+    {
+        return side * side
+    }
     
     
     
