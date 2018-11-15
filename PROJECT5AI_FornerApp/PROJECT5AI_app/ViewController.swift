@@ -17,7 +17,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var txt_int: UITextField!
      @IBOutlet weak var lbl_risultato: UILabel!
+    
     @IBAction func btn_calcola(_ sender: Any) {
+        let num = fromStringToInt(string: txt_int.text!)
+        
+        lbl_risultato.text = String(calcolaAreaQuadrato(side: num))
     }
     
     func fromStringToInt(string: String) -> Int
