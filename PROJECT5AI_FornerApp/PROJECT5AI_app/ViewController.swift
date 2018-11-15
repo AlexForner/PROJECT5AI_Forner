@@ -16,19 +16,23 @@ class ViewController: UIViewController {
     }
     
     @IBOutlet weak var txt_int: UITextField!
+     @IBOutlet weak var lbl_risultato: UILabel!
+    @IBAction func btn_calcola(_ sender: Any) {
+    }
+    
     func fromStringToInt(string: String) -> Int
     {
         return Int(string)!
     }
     
-    @IBOutlet weak var lbl_risultato: UILabel!
+   
     func calcolaAreaQuadrato(side: Int) -> Int
     {
         return side * side
     }
     
-    @IBAction func btn_calcola(_ sender: Any) {
-    }
+    
+    
     
     
     
