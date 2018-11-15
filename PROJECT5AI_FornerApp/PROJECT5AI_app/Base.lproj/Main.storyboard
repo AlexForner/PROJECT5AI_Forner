@@ -24,9 +24,6 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="txt_risultato:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="QcG-sG-fQp"/>
-                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Risultato" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWU-VH-7LE">
                                 <rect key="frame" x="192" y="200" width="67" height="21"/>
@@ -40,7 +37,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Calcola"/>
                                 <connections>
-                                    <action selector="btn_calcola:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IAo-vD-6q3"/>
+                                    <action selector="btn_calcola:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wo5-V0-sMF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -48,7 +45,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="lbl_risultato" destination="SWU-VH-7LE" id="STh-bc-WNv"/>
+                        <outlet property="lbl_risultato" destination="SWU-VH-7LE" id="znf-Wd-a6v"/>
+                        <outlet property="txt_int" destination="Mpb-Un-GRD" id="Cq6-fg-jN1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

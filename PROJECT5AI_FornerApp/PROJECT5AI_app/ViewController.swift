@@ -15,8 +15,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    @IBOutlet weak var txt_int: UITextField!
     
+    @IBOutlet weak var lbl_risultato: UILabel!
     
+    @IBAction func btn_calcola(_ sender: Any) {
+    }
     
     
     
